@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class CGPA {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        float CGPA;
+        System.out.println("Enter the first subject");
+        byte sub=sc.nextByte();
+        System.out.println("Enter the Second number");
+        byte sub2 = sc.nextByte();
+        System.out.println("Enter the third number");
+        byte sub3 = sc.nextByte();
+        System.out.println("Enter the fourth number");
+        byte sub4 = sc.nextByte();
+        System.out.println("Enter the fifth number");
+        byte sub5 = sc.nextByte();
+        int sum= sub+sub3+sub2+sub4+sub5;
+        System.out.println(sum);
+        CGPA=(float)((sum/5));
+        System.out.println("CGPA of all the subject");
+        System.out.println(CGPA);
+
+
+    }
+}
